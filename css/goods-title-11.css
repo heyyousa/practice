@@ -1,0 +1,51 @@
+.goods-title-11 {
+    height: 58px;
+    margin-top: 10px;
+}
+
+.goods-title-11>h3 {
+    float: left;
+    height: 58px;
+    line-height: 58px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #333;
+}
+
+.goods-title-11>div {
+    float: right;
+    height: 58px;
+    line-height: 58px;
+    cursor: pointer;
+}
+
+.goods-title-11>div>a {
+    display: block;
+    width: 95px;
+}
+
+.goods-title-11>div>a>h4 {
+    float: left;
+    font-size: 16px;
+    color: #424242;
+    font-weight: 400;
+    transition: all .2s ease;
+}
+
+.goods-title-11>div>div {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #424242;
+    border-bottom: 2px solid transparent;
+    transition: border .3s;
+}
+
+.goods-title-11>div>div {
+    height: 45px;
+}
+
+.goods-title-11>div>div:hover {
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}

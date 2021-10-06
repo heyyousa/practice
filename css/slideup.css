@@ -1,0 +1,23 @@
+
+.slideup-9 li:hover {
+    transform: translate(0,-3px);
+    box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.1);
+}
+
+.slideup-9 li {
+    transition: all .2s ease-in-out;
+}
+
+.slideup-11 li:nth-child(-n+7):hover {
+    transform: translate(0,-3px);
+    box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.1);
+}
+
+.slideup-11 li>ul>li:hover {
+    transform: translate(0,-3px);
+    box-shadow: 2px 2px 20px 3px rgba(0,0,0,0.1);
+}
+
+.slideup-11 li {
+    transition: all .2s ease-in-out;
+}

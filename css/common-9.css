@@ -1,0 +1,91 @@
+.clearfix:before, .clearfix:after {
+    content: “”;
+    display: table;
+    }
+.clearfix:after {
+    clear: both;
+}
+
+/* 产品卡通用ul li样式表 */
+.common-9 {
+    height: 628px;
+}
+
+.common-9>div:nth-child(1) {
+    float: left;
+    width: 234px;
+    height: 613px;
+}
+
+.common-9>div:nth-child(2) {
+    float: left;
+    width: 992px;
+    height: 614px;
+}
+
+.common-9>div:nth-child(2)>ul>li {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+}
+
+.common-9>div:nth-child(2)>ul>li>a {
+    display: block;
+    width: 234px;
+    height: 260px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.common-9>div:nth-child(2)>ul>li>a>img {
+    width: 160px;
+    height: 160px;
+}
+
+.common-9>div:nth-child(2)>ul>li>a>h3 {
+    width: 234px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.common-9>div:nth-child(2)>ul>li>a>h4 {
+    width: 234px;
+    height: 30px;
+    line-height: 30px;
+    color: #b0b0b0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.common-9>div:nth-child(2)>ul>li>a>h5 {
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    color: #FF6A00;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.common-9>div:nth-child(2)>ul>li>a>h6 {
+    display: inline-block;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
